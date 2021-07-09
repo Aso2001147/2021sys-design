@@ -4,7 +4,7 @@
 
 # DBテーブルカラム詳細一覧
 
-### d_purchase(購入テーブル)
+### 購入テーブル (d_purchase)
 |和名|属性名（カラム名）|型|PK|NN|FK|
 |-|-|-|-|-|-|
 |オーダーID|order_id|bigint(20)|〇|〇|-|
@@ -13,14 +13,14 @@
 |総額|total_price|int(11)|-|〇|-|
 
 
-### d_purchase_detail(購入テーブル詳細)
-|属性名|型|PK|NN|FK|
-|-|-|-|-|-|
-|detail_id|bigint(20)|〇|〇|-|
-|order_id|bigint(20)|〇|〇|〇|
-|item_code|int(11)|-|〇|-|
-|price|int(11)|-|〇|-|
-|num|int(11)|-|〇|-|
+### 購入詳細テーブル (d_purchase_detail)
+|和名|属性名（カラム名）|型|PK|NN|FK|
+|-|-|-|-|-|-|
+|オーダー詳細ID|detail_id|bigint(20)|〇|〇|-|
+|オーダーID|order_id|bigint(20)|〇|〇|〇|
+|商品コード|item_code|int(11)|-|〇|-|
+|価格|price|int(11)|-|〇|-|
+|数量|num|int(11)|-|〇|-|
 
 
 ### m_customers(ユーザー（顧客）テーブル)
