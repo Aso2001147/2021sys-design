@@ -6,11 +6,11 @@
 
 ### d_purchase(購入テーブル)
 |和名|属性名（カラム名）|型|PK|NN|FK|
-|-|-|-|-|-|
-|order_id|bigint(20)|〇|〇|-|
-|customer_code|varchar(50)|-|〇|-|
-|purchase_date|data|-|〇|-|
-|total_price|int(11)|-|〇|-|
+|-|-|-|-|-|-|
+|オーダーID|order_id|bigint(20)|〇|〇|-|
+|顧客コード|customer_code|varchar(50)|-|〇|-|
+|購入日|purchase_date|data|-|〇|-|
+|総額|total_price|int(11)|-|〇|-|
 
 
 ### d_purchase_detail(購入テーブル詳細)
