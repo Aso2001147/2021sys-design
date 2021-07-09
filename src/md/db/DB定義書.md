@@ -36,12 +36,12 @@
 |登録日|reg_date|data|-|〇|-|
 
 
-### m_category(カテゴリテーブル)
-|属性名|型|PK|NN|FK|
-|-|-|-|-|-|
-|category_id|int(11)|〇|〇|-|
-|name|varchar(20)|-|〇|-|
-|reg_date|date|-|〇|-|
+### カテゴリマスタ (m_category)
+|和名|属性名（カラム名）|PK|NN|FK|
+|-|-|-|-|-|-|
+|カテゴリID|category_id|int(11)|〇|〇|-|
+|氏名|name|varchar(20)|-|〇|-|
+|登録日|reg_date|date|-|〇|-|
 
 
 ### m_items(商品テーブル)
