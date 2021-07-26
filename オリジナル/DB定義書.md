@@ -2,6 +2,9 @@
 # DB定義書
 ## ER図
 [ER図はこちら](https://github.com/Aso2001147/2021sys-design/blob/main/%E3%82%AA%E3%83%AA%E3%82%B8%E3%83%8A%E3%83%AB/ER%E5%9B%B3.md "ER図はこちら")
+## プロトタイプ
+[プロトタイプはこちら](https://www.figma.com/file/iDYw9tQd0IceSOdzlKsSiy/Untitled?node-id=0%3A1 "プロトタイプはこちら")
+img src=top-page.png
 
 # DBテーブルカラム詳細一覧
 
